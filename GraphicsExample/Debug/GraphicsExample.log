@@ -1,0 +1,44 @@
+﻿Build started 7/30/2016 9:21:02 AM.
+     1>Project "C:\Users\Admin\Desktop\GraphicsExample\GraphicsExample\GraphicsExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt banco.cpp
+         banco.cpp
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(33): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(35): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(268): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(277): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(278): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(83): warning C4715: 'banco::CheckCanKill' : not all control paths return a value
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(561): warning C4715: 'banco::end' : not all control paths return a value
+     1>c:\users\admin\desktop\graphicsexample\graphicsexample\banco.cpp(2100): warning C4715: 'banco::CheckCanKill2' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Desktop\GraphicsExample\Debug\GraphicsExample.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Desktop\GraphicsExample\Debug\GraphicsExample.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Desktop\GraphicsExample\Debug\GraphicsExample.lib" /MACHINE:X86 Debug\banco.obj
+         Debug\bgiout.obj
+         Debug\co.obj
+         Debug\dibutil.obj
+         Debug\drawing.obj
+         Debug\file.obj
+         Debug\hau.obj
+         Debug\ma.obj
+         Debug\main.obj
+         Debug\misc.obj
+         Debug\mouse.obj
+         Debug\palette.obj
+         Debug\text.obj
+         Debug\tot.obj
+         Debug\voi.obj
+         Debug\vua.obj
+         Debug\winbgi.obj
+         Debug\winthread.obj
+         Debug\xe.obj
+         GraphicsExample.vcxproj -> C:\Users\Admin\Desktop\GraphicsExample\Debug\GraphicsExample.exe
+     1>Done Building Project "C:\Users\Admin\Desktop\GraphicsExample\GraphicsExample\GraphicsExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.72
